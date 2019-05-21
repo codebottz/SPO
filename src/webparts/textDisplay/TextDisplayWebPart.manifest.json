@@ -1,0 +1,23 @@
+{
+  "$schema": "http://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "41ef0651-cab0-40e2-bb08-b3deaf98c472",
+  "alias": "TextDisplayWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Text Display" },
+    "description": { "default": "Component to display static text for page headers and introduction" },
+    "officeFabricIconFontName": "ContextMenu",
+    "properties": {
+      "pageTitle": "Page Heading",
+      "pageTeaser": "This is a sample page teaser",
+      "pageTextAlignment": "center"
+    }
+  }]
+}
